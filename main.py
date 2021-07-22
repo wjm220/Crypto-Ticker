@@ -6,9 +6,6 @@ from binance.client import Client
 from binance.websockets import BinanceSocketManager
 from twisted.internet import reactor
 
-# TODO: add functionality that allows the user to choose which crypto they want to watch
-# TODO: add a stopwatch display that indicates how long the program has been running
-
 # Binance api key and secret key have been stored as environment variables
 api_key = os.environ.get('binance_api')
 api_secret = os.environ.get('binance_secret')
